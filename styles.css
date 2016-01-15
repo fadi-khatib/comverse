@@ -1,89 +1,128 @@
 li { 
 display: inline;
 }
-form{
-	display: inline;
-}
-#h_img{
-	display: block;
-}
-#heads{
-	display: inline;
-	background: #FFF none repeat scroll 0% 0%;
-	position: absolute;
-    width:  100%;
-    position: fixed;
-   /* box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.5);*/
-    
-    }
-#headers {
-	display: block
-  margin: 0 auto;
-  width: 100%; 
-   display: inline-block;
-   text-align: center;
- 
-  
-}
-#h_img {display:inline-block;} 
-#h_ul{display:inline-block;} 
 
+
+#h_ul{
+	float:left;
+	display:inline;
+	position:relative;
+	left:180px;
+	top:23px;
+} 
+#h_img {
+	float:left;
+	display:inline;
+	position:relative;
+	left:150px;
+	} 
 #h_box{
-	display:inline-block;	
+	float:left;
+	display:inline;
 	position: relative;
-    width: 150px;
-    height: 50px;
-    top: 30px;
-    right: 500;
+	display:inline-block;
+	left:250px;
+    width: 160px;
+    height: 20px;
+    top: 3px;
+    
 }
+
 
 
 #h_select{ 
+float:left;
+	display:inline;
    position: relative;
     top:auto;  
 }
 #h_login{
+	float:left;
+	display:inline;
 	position: relative;
     top: auto;
-    right: 3px;
+ 	left:5px;
 }
 #h_form{
-	display:inline-block;	
-	border: solid;
+	float:left;
+	display:inline;
+    position: relative;
+    left:110px;
+    top: 40px;
+    width: 144px;
+    height: 20px;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 5px;
+
     
 }
 #h_input{
+	float:left;
+	display:inline;
+	position:relative
 	display:inline-block;
-	width: 100px;
-	border: none;
+	width: 120px;
+
+	border-right: none;
+	border-style: none;
 
 }
 #h_button{
-	display:inline-block;
+	float:left;
+	display:inline;
 	position: relative;
-	right: 3px;
-	top:3;
+	border-left: none;
+	height:inherit;
+	background-color: white;
 }
-/*
+
 
 #written {
-    left : 300px;
+	position: relative;
+    left : 150px;
     width: 1000px;
-    min-width: 40%;
+    color : white;
+
+    /*    min-width: 40%;
     max-width: 940px;
     padding: 0px;
-    margin: 0px auto;
-} 
+    margin: 0px auto;*/
+}
+#sec_1_head{
+	position:relative;
+	 width: 1000px;
+	float:left;
+	}
 #section_1 {
-	padding-bottom: 50px; 
-	padding-top: 60px;
+	position:relative;
     background-image: url("img/slide-bg-complexity.jpg") ;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
-    background-clip: border-box;
+    top:150px;
+    /*background-clip: border-box;
     background-origin: padding-box;
     background-size: cover;
+    	padding-bottom: 50px; 
+	padding-top: 60px;*/
 }
 
-*/
+#pink{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	background-color: rgba(251, 66, 158, 0.9);
+}
+#green{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	background-color: rgba(106, 192, 50, 0.9);
+}
+#orange{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	background-color: rgba(255, 117, 24, 0.9);
+}
