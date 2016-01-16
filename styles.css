@@ -1,22 +1,29 @@
+.heads{
+
+	height:90px;
+
+}
+
 li { 
+
 display: inline;
 }
 
 
-#h_ul{
+.h_ul{
 	float:left;
 	display:inline;
 	position:relative;
 	left:180px;
 	top:23px;
 } 
-#h_img {
+.h_img {
 	float:left;
 	display:inline;
 	position:relative;
 	left:150px;
 	} 
-#h_box{
+.h_lang_log{
 	float:left;
 	display:inline;
 	position: relative;
@@ -43,7 +50,7 @@ float:left;
     top: auto;
  	left:5px;
 }
-#h_form{
+.h_search{
 	float:left;
 	display:inline;
     position: relative;
@@ -78,10 +85,11 @@ float:left;
 }
 
 
-#written {
+.written {
 	position: relative;
     left : 150px;
-    width: 1000px;
+   	height:300px;
+   	width:400px;
     color : white;
 
     /*    min-width: 40%;
@@ -91,38 +99,46 @@ float:left;
 }
 #sec_1_head{
 	position:relative;
-	 width: 1000px;
 	float:left;
 	}
-#section_1 {
+.section_1 {
+
 	position:relative;
+	height: 600px;
     background-image: url("img/slide-bg-complexity.jpg") ;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
-    top:150px;
     /*background-clip: border-box;
     background-origin: padding-box;
     background-size: cover;
     	padding-bottom: 50px; 
 	padding-top: 60px;*/
 }
-
-#pink{
+.pink{
 	position: relative;
 	width: 200px;
 	height: 200px;
 	background-color: rgba(251, 66, 158, 0.9);
 }
-#green{
-	position: relative;
+.green{
+	position:relative ;
 	width: 200px;
 	height: 200px;
+	left:300px;
+	top:-215px;
 	background-color: rgba(106, 192, 50, 0.9);
 }
-#orange{
+.orange{
 	position: relative;
 	width: 200px;
 	height: 200px;
+	left:600px;
+	top:-430px;
 	background-color: rgba(255, 117, 24, 0.9);
+}
+.sec_1_panted_box{
+	position:relative;
+	left:150px;
+	height: 300px;
 }
