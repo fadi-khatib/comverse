@@ -142,3 +142,31 @@ float:left;
 	left:150px;
 	height: 300px;
 }
+
+
+/**************section 2 start hear****************/
+.section_2{
+	
+	background: radial-gradient(#59BEDB 10%, #3399CC 80%);
+	height:300px;
+}
+.Section_2_content{
+	position:relative;
+	left:150px;
+}
+.Section_2_content  h2{
+	position:relative;
+	left:500px;
+}
+.sec_2_do{
+	position:relative;
+	float:left;
+	width:150px;
+	height:150px;
+}
+#sec_2_solutions{
+	float:left;
+	position:relative;
+	left:-500px;
+	top:200px;
+}
