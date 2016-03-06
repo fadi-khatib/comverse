@@ -3,104 +3,128 @@
 	<head>
 		<link rel="stylesheet"  href="styles.css">
 	</head>
-
 	<body>	
-		<header class="heads">
-			<!--<div id="headers">-->
-			<div class="h_img">
-				<a href="#">
-				<img  src="img\comverse-logo.png" alt="comverse">
-				</a>
-			</div>
-			<div class="h_ul">
-				<ul > 
-					<li><a href="#">Your Needs</a></li>
-					<img src="img\divider.png">
-					<li> <a href="#">Our Portfolio<a></li>
-					<img src="img\divider.png">
-					<li><a href="#">News &amp; Media</a></li>
-					<img src="img\divider.png">
-					<li><a href="#">About Comverse</a></li>
-				</ul>
-			</div>
-
-				<div class="h_lang_log">
-					<select id="h_select">
-					  <option value="english">en</option>
-					  <option value="hebrew">he</option>
-					</select>
-					<img src="img\divider.png">
-					<a  id="h_login" href="#"> Customer login</a>
+		<header >
+			<div class="header">
+				<div class="header-content"> 
+					<div class="header-inline" id="header-logo">
+						<div class="header-right-logo">
+							<a href="#">
+							<img  src="img\comverse-logo.png" alt="comverse">
+							</a>
+						</div>
+					
+					<!--
+					<div class="mobile-center-logo">
+						<a href="#">
+						<img  src="img\comverse-logo.png" alt="comverse">
+						</a>
+					</div>
+					-->
+					</div>
+					<nav class="header-inline">
+						<div class="header-menu">
+							<ul > 
+								<li class="header-menu-element"><a href="#">Your Needs</a></li>
+								<!--<img src="img\divider.png" class="menu-divider">-->
+								<li class="header-menu-element"> <a href="#">Our Portfolio<a></li>
+								<!--<img src="img\divider.png" class="menu-divider">-->
+								<li class="header-menu-element"><a href="#">News & Media</a></li>
+								<!--<img src="img\divider.png" class="menu-divider">-->
+								<li class="header-menu-element"><a href="#">About Comverse</a></li>
+							</ul>
+						</div>
+					</nav>
+					<div class="header-inline" id="header-right-box">
+						<div class = "header-login-language" >
+							<div >
+								<select id="header-language">
+								  <option value="english">en</option>
+								  <option value="hebrew">he</option>
+								</select>
+								<a  id="header-login" href="#"> Customer login</a>
+							</div>
+						</div>
+						<div class="header-search-box">	
+							<form  >
+								<input  id="header-search-input" type="search" name="search">
+								<div id="header-search-button">
+									<!--<img src="img\divider.png" id="searchdevider">-->
+									<a type="button" >
+								  		<img src="img\searchBtn.png">
+								  	</a>
+							  </div>
+							</form>
+						</div>
+					</div>
 				</div>
-				<div class="h_search">	
-					<form  >
-						<input  id="h_input" type="search" name="search">
-						<img src="img\divider.png">
-						<a type="button" id="h_button">
-					  		<img src="img\searchBtn.png">
-					  	</a>
-					</form>
-				</div>
-			<!--</div>-->  
+			</div>
 		</header>
-
-	<!-- ******************section_1*********************************************************** -->	
-			
-			<div class="section_1">
-				<div class="written">
-					<h1 id= "sec_1_head">
-						Free Your Marketplace From<br>IT Complixity
-					</h1>
-					<p id="sec_1_par">
-						Comverse Policy Studio<br>1st Ever Marketing-oriented Policy Tool
-					</p>
-					<button type="button" id="learn_more">
-						LEARNE MORE
-					</button>
+<!-- ***********section 1 **************-->	
+			<section class="section-1" id="slides">
+				<div class="slides-content">
+					<div class ="slides-head">
+						<h1 id= "slides-head">
+							Free Your Marketplace From<br>IT Complixity
+						</h1>
+						<p id="slide-par">
+							Comverse Policy Studio<br>1st Ever Marketing-oriented Policy Tool
+						</p>
+						<button type="button" id="slide-button">
+							LEARNE MORE
+						</button>
 					
 					  <legend>shoose</legend>
 					  <input id="input_1" type="radio" name="nav-radios">
 					  <input id="input_2" type="radio" name="nav-radios">
 					  <input id="input_3" type="radio" name="nav-radios">
 					  <input id="input_4" type="radio" name="nav-radios">
-					</div>
-					<div class="sec_1_panted_box">
-					<div class="pink">
-						<p>
-							Comverse Is Value-Added Service Global Market Leader
-						</p>
-						<div>
-							<img src="img\link-icon-image.png">
-							<a href="#">Read More</a>
-							
-						</div>
 
+					<!--<ul class="no-style-list">
+						<li><a href="#complexity"><div class="left bullet active">1</div></a></li>
+						<li><a href="#comverse"><div class="left bullet">2</div></a></li>
+						<li><a href="#market"><div class="left bullet">3</div></a></li>
+						<li><a href="#new-section"><div class="left bullet">4</div></a></li>
+					</ul>
+					-->
 					</div>
-					
-					<div class="green">
-						<p>
-							Managed Services World Congress September 18-19Berlin, Germany
-						</p>
+					<div class="slides-panted-boxes">
+						<ul class="slides-boxes">
+						<li class="pink">
+							<div>
+								<p>
+									Comverse Is Value-Added Service Global Market Leader
+								</p>
+								<img src="img\link-icon-image.png">
+								<a href="#" class="slide-link">Read More</a>
+							</div>
+						</li>
+						
+						<li class="green">
+							<div>
+								<p>
+									Managed Services World Congress September 18-19Berlin, Germany
+								</p>
+								<img src="img\link-icon-image.png">
+								<a  class="slide-link" href="#">Read More</a>
+							</div>
+						</li>
+					<li class="orange">
 						<div>
+							<p>
+								Comverse: Enabling a world of Connected Possibilities
+							</p>
 							<img src="img\link-icon-image.png">
-							<a href="#">Read More</a>
+							<a href="#" class="slide-link" >Watch Now</a>
 						</div>
-					</div>
-					<div class="orange">
-						<p>
-							Comverse: Enabling a world of Connected Possibilities
-						</p>
-					<div>
-							<img src="img\link-icon-image.png">
-							<a href="#">Watch Now</a>
-					</div>
-					</div>	
-				</div>
+					</li>	
+				</ul>
 			
 			
-			</div>
+			</section>
 
 <!-- ********************* section 2******************************************************-->
+<!--
 	<div class="section_2">
 		<div class="Section_2_content">
 			<h2>What Can We Do For You?</h2>
@@ -133,6 +157,8 @@
 			<a href="#" id="sec_2_solutions">See all of our solutions</a>
 		</div>
 	</div>
+-->
+
 
 	</body>
 </html>
