@@ -82,6 +82,7 @@ display:inline;
 /************** slides***************/
 
 .section-1{
+	margin:0;
 	position: relative;
 	bottom: -50px;
 	width:100%;
@@ -91,7 +92,7 @@ display:inline;
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
-    height:600px;
+    height:550px;
 
 }
 .slides-content{
@@ -105,45 +106,93 @@ display:inline;
 .slide-bar{
 	float:left;
 }
+.slide-button{
+	background: url(img/btnArrow.png) right 15px center no-repeat, linear-gradient(to bottom, #2e94c8 , #1188c4);
+	height: 35px;
+	width: 150px;
+	padding: 10px;
+	border: none;
+	text-align: left;
+	border-radius: 6px;
+	color: white;
+	box-shadow: 0 1px 3px 0 grey;
+	margin: 30px 0 20px 0;
+}
+
+
+
+.slide-button:hover{
+	cursor: pointer;
+}
+.bullets {
+	position:relative;
+	right:40px;
+}
+.bullets > li >a{
+	float:left;
+	display:inline;
+	text-decoration:none;
+	margin-top:-10px;
+	margin-right:10px;
+	text-align:center;
+	width: 15px;
+	height: 20px;
+	background-color: #e0e0e0;
+	border-radius: 2px;
+	box-shadow: 0 1px 3px 0 grey;
+
+}
+.bullets > li :hover{
+    background: #3498db;
+    box-shadow: 0px 1px 3px #666666;
+    color: white;
+}
+.bullet-1 >a { 
+    background-color: #2e95ca;
+
+}
+
+
 .slides-panted-boxes{
 	position:relative;
 	float:left;
 	right:39px;
 }
-
-.pink{
-	background-color: rgba(251, 66, 158, 0.9);
-	padding-left:15px;
+.slides-boxes > li{
+	cursor: pointer;
+  	padding: 10px 15px;
+ 	margin-right: 20px;
+ 	padding-left:15px;
 	font-size:20px;
 	width:250px;
 	height:200px;
 	float:left;
 	display:inline;
 	border-radius:10px;
+}
+.slides-boxes > li >a {
+	text-decoration:none;
+	color:white;
+	size:20px;
+}
+.slides-boxes :hover{
+  opacity: 0.99;
+}
+.pink{
+	background-color: rgba(251, 66, 158, 0.9);
+	opacity: 0.8;
 }
 .green{
 	background-color: rgba(106, 192, 50, 0.9);
-		font-size:20px;
-		padding-left:15px;
-	width:250px;
-	height:200px;
-	float:left;
-	display:inline;
+	opacity: 0.8;
 	position:relative;
-	border-radius:10px;
 	left:69px;
-
-
 }
 .orange{
 background-color: rgba(255, 117, 24, 0.9);
-	font-size:20px;
-	padding-left:15px;
-	width:250px;
-	height:200px;
-	display:inline;
-	border-radius:10px;
+	opacity: 0.8;
 	position:relative;
+
 	float:right;
 	left:150px;
 
@@ -152,134 +201,217 @@ background-color: rgba(255, 117, 24, 0.9);
 	color:white;
 }
   
+/*************************solutions****************/
+.solutions{
+	background: radial-gradient(#59BEDB 10%, #3399CC 80%);
+	height:400px;
+	padding-top: 20px;
+}
 
-/*
-.h_ul{
+.solutions-content{
+	padding-top: 50px;
+	width:1000px;
+	margin: 0 auto;
+	color:white;
+	
+}
+.solutions-head{
+	text-transform: uppercase;
+	margin:0  auto;
+	font-size: 20px;
+	width:1000px;
+	text-align: center;
+}
+.solutions-head-content{
+	text-align: center;
+}
+.solutions-list-container{
+	padding-top:20px;
+	wedth:1000px;
+	height:200px;
+}
+.solutions-list-content{
+	wedth:1000px;
+	height:180px;
+}
+.do-solution{
+	width:150px;
+	height: 100px;
 	float:left;
 	display:inline;
-	position:relative;
-	left:180px;
-	top:23px;
-} 
-.h_img {
-	float:left;
-	display:inline;
-	position:relative;
-	left:150px;
-	} 
-.h_lang_log{
-	float:left;
-	display:inline;
-	position: relative;
-	display:inline-block;
-	left:250px;
-    width: 160px;
-    height: 20px;
-    top: 3px;
-    
+	margin:auto;
+	text-align:center;
+}
+.do-solution:hover{
+	
+	cursor:pointer;
 }
 
 
-
-#h_select{ 
-float:left;
-	display:inline;
-   position: relative;
-    top:auto;  
+.solution-1-background{
+  background: url(./img/solution_icon_smart-money.png) no-repeat center center;
+    height:60px;
 }
-#h_login{
-	float:left;
-	display:inline;
-	position: relative;
-    top: auto;
- 	left:5px;
+.solution-1-background:hover{
+  height: 60px;
+  background: url(./img/solution_icon_smart-money_hover.png) no-repeat center center;
 }
-.h_search{
-	float:left;
-	display:inline;
-    position: relative;
-    left:110px;
-    top: 40px;
-    width: 144px;
-    height: 20px;
-	border-style: solid;
-	border-width: 1px;
-	border-radius: 5px;
-
-    
+.solution-2-background{
+  height: 60px;
+  background: url(./img/solution_icon_biz-analitics.png) no-repeat center center;
 }
-#h_input{
-	float:left;
-	display:inline;
-	position:relative
-	display:inline-block;
-	width: 120px;
-
-	border-right: none;
-	border-style: none;
-
+.solution-2-background:hover{
+  height: 60px;
+  background: url(./img/solution_icon_biz-analitics_hover.png) no-repeat center center;
 }
-#h_button{
-	float:left;
-	display:inline;
-	position: relative;
-	border-left: none;
-	height:inherit;
-	background-color: white;
+.solution-3-background{
+  height: 60px;
+  background: url(./img/solution_icon_optimize-efficnt.png) no-repeat center center;
+  margin-right: -1.5em;
+}
+.solution-3-background:vover {
+  height: 60px;
+  background: url(./img/solution_icon_optimize-efficnt_hover.png) no-repeat center center;
+   margin-right: -1.5em;
+}
+.solution-4-background{
+  height: 60px;
+  background: url(./img/solution_icon_biz-transform.png) no-repeat center center;
+}
+.solution-4-background:hover {
+  height: 60px;
+  background: url(./img/solution_icon_biz-transform_hover.png) no-repeat center center;
+}
+.solution-5-background{
+  height: 60px;
+  background: url(./img/solution_icon_personal.png) no-repeat center center;
+}
+.solution-5-background:hover {
+  height: 60px;
+  background: url(./img/solution_icon_personal_hover.png) no-repeat center center;
+}
+.solution-6-background{
+  height: 60px;
+  background: url(./img/solution_icon_diti-cx.png) no-repeat center center;
+}
+.solution-6-background:hover{
+  height: 60px;
+  background: url(./img/solution_icon_diti-cx_hover.png) no-repeat center center;
+}
+.all-solutions-container{
+	margin : 0 auto;
+	text-align: center;
+	width:600px
 }
 
-
-.written {
-	position: relative;
-    left : 150px;
-   	height:300px;
-   	width:400px;
-    color : white;
-
-  
+.all-solutions{
+	background: url(img/btnArrow.png) right 10px center no-repeat, linear-gradient(to bottom, #2e94c8 , #1188c4);
+	text-transform: uppercase;
+	text-decoration:none;
+	font-size: 20px;
+	height: 35px;
+	padding: 10px;
+	padding-right:25px;
+	padding-left:25px;
+	border: none;
+	text-align: left;
+	border-radius: 6px;
+	color: white;
+	box-shadow: 0 1px 3px 0 grey;
+	margin: 0;
 }
-#sec_1_head{
-	position:relative;
-	float:left;
-	}
-.section_1 {
 
-	position:relative;
-	height: 600px;
-    background-image: url("img/slide-bg-complexity.jpg") ;
-    background-repeat: no-repeat;
+/****************events***************/
+.events{
+	background-image: url("./img/news-and-events-bg.jpg") ;
+	background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
-  
+    background-size: cover;
+    height:550px;
+	padding-top: 1px;
+	margin: 0;
 }
-.pink{
-	position: relative;
-	width: 200px;
-	height: 200px;
-	background-color: rgba(251, 66, 158, 0.9);
+
+.events-content{
+	width:1000px;
+	margin: 0 auto;
+	height:500px;
+	color:white;
 }
-.green{
-	position:relative ;
-	width: 200px;
-	height: 200px;
-	left:300px;
-	top:-215px;
-	background-color: rgba(106, 192, 50, 0.9);
+.events-head{
+	text-transform: uppercase;
+	margin:0  auto;
+	font-size: 20px;
+	width:1000px;
+	text-align: center;
+
 }
-.orange{
-	position: relative;
-	width: 200px;
-	height: 200px;
-	left:600px;
-	top:-430px;
-	background-color: rgba(255, 117, 24, 0.9);
+
+.events-list-container{
+	padding-top:20px;
+	width:1000px;
+	height:200px;
+	margin: 0;
 }
-.sec_1_panted_box{
-	position:relative;
-	left:150px;
-	height: 300px;
-}*/
-/**************section 2 start hear****************/
+.events-list-content{
+	width:1000px;
+	height:180px;
+	margin: 0 auto;
+}
+.do-event{
+	width:270px;
+	height: 120px;
+	float:left;
+	display:inline;
+	margin: 0 auto;
+	text-align:center;
+}
+.do-event > div > h1{
+	float:left;
+	width:270px;
+	text-align:-webkit-left
+}
+
+.date{
+	width:70px;
+	height: 100px;
+	float:left;
+	color:white;
+	background-color:aqua;
+}
+.event-explane{
+	width:140px;
+	height: 50px;
+	float :left;
+}
+.hover-event{
+	width:2700px;
+	height: 140px;
+}
+.hover-event:hover{
+	cursor:pointer;
+}
+
+.event-1-date{
+  background: url(./img/eventListIconNews_hover.png) no-repeat;
+    height:60px;
+}
+.event-2-date{
+  height: 60px;
+  background:url(./img/eventListIconPress_hover.png) no-repeat;
+}
+
+..event-3-date{
+  height: 60px;
+  background:url(../img/eventListIconEvents_hover.png) no-repeat;
+  margin-right: -1.5em;
+}
+
+
+
+
+
 /*
 .section_2{
 	
