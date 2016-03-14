@@ -632,6 +632,106 @@ background:url("./img/eventListIconEvents_hover.png") no-repeat left ;
 	float:right;
 	height: 330px;
 }
+.success-right-text{
+	width:inherit;
+	height:200px;
+}
+.person-details-3{
+	width:inherit;
+	height: 50px;
+	display:inline;
+	    border-top: 1px solid #DDDDDD;
+}
+.person-details-3 > p{
+	width:60%;
+}
+.person-logo3{
+	width:50px;
+	height:50px;
+	float:right;
+	position:relative;
+	bottom: 100px;
+}
+.person-logo3 > img{
+	width:50px;
+	height:50px;
+	display:inline;
+}
+.logos3{
+
+height: 100px;
+
+width: 2;3:inline;
+
+/* display: inline; */
+
+width: 230px;
+
+position:relative;
+
+top:0px;
+}
+.logos3 > img{
+	display:inline;
+	float:left;
+	margin:5px;
+	width:45%;
+}
+.right-sky{
+	float:left;
+	width:45%;
+	height:50px;
+	display:inline;
+}
+.right-sky > img{
+	position:absolute;
+	display:inline;
+}
+.right-mts{
+	position:relative;
+
+	width:45%;
+	height:50px;
+	display:inline;
+}
+.right-mts > img{
+	position:relative;
+	left: 115px;
+	bottom:100px;
+	display:inline;
+}
+/************************************footer***************************************/
+.footer-contaner{	
+	height:500px;
+	background-color:#2b2b2b;
+	color:white;
+}
+.footer-content{
+	width:1000px;
+	height: inherit;
+	margin:auto;
+}
+.key-solutions{
+	height: inherit;
+	width: 25%;
+	float: left;
+}
+.products{
+	height: inherit;
+	width: 25%;
+	float: left;
+}
+.company{
+	height: inherit;
+	width: 25%;
+	float: left;
+}
+.latest-blog{
+	height: inherit;
+	width: 25%;
+	float: left;
+}
+
 /*
 .section_2{
 	
