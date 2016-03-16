@@ -530,7 +530,7 @@ background:url("./img/eventListIconEvents_hover.png") no-repeat left ;
     color: white;
     overflow: hidden;
      height: 210px;
-     width:inherit;
+     width:339px;
      position:absolute;
     
 
@@ -543,11 +543,11 @@ background:url("./img/eventListIconEvents_hover.png") no-repeat left ;
 	margin-right: 5px;	
 }
 .success-center{
-		width: 345px;
-	height:330px;
-	display:inline;
-	float:left;
-	margin-right: 5px;
+		/* width: 345px; */
+		/* height:330px; */
+		/* display:inline; */
+		/* float:left; */
+		/* margin-right: 5px; */
 }
 
 .person-image{
@@ -558,10 +558,10 @@ background:url("./img/eventListIconEvents_hover.png") no-repeat left ;
 
 }
 .success-left{
-	width:333px;
+	width: 339px;
 	display:inline;
 	float:left;
-	margin-left: 14px;
+	/* margin-left: 14px; */
 	margin-right: 15px;
 }
 .success-left-1{
@@ -590,7 +590,7 @@ background:url("./img/eventListIconEvents_hover.png") no-repeat left ;
 	/* padding-bottom: 40px; */
 	}
 .person-details{
-	width: 330px;
+	width: 320px;
 	height:60px;
 	margin-left: 10px;
 	margin-right: 10px;
@@ -603,30 +603,36 @@ background:url("./img/eventListIconEvents_hover.png") no-repeat left ;
 	padding-top:15px;
 	padding-right: 10px;
 }
-.success-picture-1{
-	margin-top:7px;
-	/* padding: 5px; */
+.success-left-2{
+	width: 345px;
+	height: 100px;
 }
-.success-picture-2{
-	/* margin-left:6px; */
-	margin-top:7px;
+.left-hidden{
+	width: 108px;
+	height: 95px;
+	display: inline;
+	float:left;
+	margin-top: 7px;
+	margin-right: 7px;
 }
-.success-picture-3{
-	float:right;
-	margin-top:7px;
+.left-hidden  >img{
+	/*display: inline-block;*/
+	float:left;
+	position: absolute;
+	/* margin-right: 4px; */
+	/* margin-right: 5px; */
 }
-.success-center-2{
-	background-color:white;
-	width: inherit;
-	height: 210px;
+.success-picture-2-div{
+display: none;
 }
-.success-center-1 > img{
-	margin-top:0px;
-	margin-bottom:4px;
+.left-hidden:hover .success-picture-2-div{
+	display: inline-block;
 }
-.success-center{
-	display:inline;
+.center-hidden{
+	margin-top: 0px;
+	margin-bottom: 7px; 
 }
+
 .success-right{
 	width: 230px;
 	float:right;
