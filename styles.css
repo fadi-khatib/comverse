@@ -635,28 +635,33 @@ display: none;
 
 .success-right{
 	width: 230px;
-	float:right;
-	height: 330px;
+	/* float:right; */
+	/* height: 330px; */
 }
 .success-right-text{
-	width:inherit;
-	height:200px;
+	/* width:inherit; */
+	/* height:200px; */
 }
 .person-details-3{
 	width:inherit;
-	height: 50px;
-	display:inline;
-	    border-top: 1px solid #DDDDDD;
+	/* height: 50px; */
+	/* display:inline; */
+	/* border-top: 1px solid #DDDDDD; */
 }
 .person-details-3 > p{
 	width:60%;
+	-webkit-margin-after: 0px;
+}
+.success-right-text-hidden{
+	position: absolute;
+	width: 230px;
 }
 .person-logo3{
 	width:50px;
 	height:50px;
 	float:right;
 	position:relative;
-	bottom: 100px;
+	bottom: 50px;
 }
 .person-logo3 > img{
 	width:50px;
@@ -684,27 +689,35 @@ top:0px;
 	width:45%;
 }
 .right-sky{
-	float:left;
-	width:45%;
-	height:50px;
-	display:inline;
+	/* float:left; */
+	/* width:45%; */
+	/* height:50px; */
+	/* display:inline; */
 }
 .right-sky > img{
-	position:absolute;
-	display:inline;
+	/* position:absolute; */
+	/* display:inline; */
 }
 .right-mts{
-	position:relative;
-
-	width:45%;
-	height:50px;
-	display:inline;
+	position: absolute;
+	/* width:45%; */
+	/* height:50px; */
+	/* display:inline; */
+	/* float: right; */
+	/* margin: 0; */
 }
 .right-mts > img{
-	position:relative;
-	left: 115px;
-	bottom:100px;
-	display:inline;
+	/* position:relative; */
+	/* left: 115px; */
+	/* bottom:100px; */
+	/* display:inline; */
+}
+.success-right-up-text.person-image {
+    width: inherit;
+    padding-left: 10px;
+}
+.success-right-pictures{
+	width: inherit;
 }
 /************************************footer***************************************/
 .footer-contaner{	
@@ -1189,6 +1202,24 @@ top:0px;
 	.all-news{
 		width:100%;	
 	}
+	/***********************************success stores*********************************/
 
+    .success-stories{
+    	height: 800px;
+    }
+	.success-content{
+		width:100%;
+
+	}
+	.success-elements > div{
+		display: block;
+	}
+	.success-elements{
+		width: 345px;
+		margin: auto;
+	}
+	.success-right > div{
+		display:none
+	}
 
 	}
