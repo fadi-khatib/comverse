@@ -1418,5 +1418,37 @@ background: url(img/btnArrow.png) right 15px center no-repeat, linear-gradient(t
 	.mobile-footer{
 		display: block;
 	}
+	.top-page {
+    display: block;
+    float: right;
+    margin: -30px 23px 0px 0px;
+	}
+	.mob-footer-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	}
+	.mob-footer-list > li {
+    color: #ebebeb;
+    list-style: none;
+    padding: 12px;
+    border-bottom: 1px solid black;
+        display: list-item;
+	}
+	.mob-footer-list > li >a{
+		cursor: pointer;
+	}
+	footer {
+    height: 193px;
+    background-image: url(./img/footer-bg.png);
+	}
+
+	footer {
+    padding-top: 0;
+    background: linear-gradient(80deg, #222221, #313131, #222221);
+    padding: 0;
+    height: 334px;
+    width: 100%;
+    margin: 0;
 
 	}
