@@ -33,13 +33,13 @@ display: inline;
 .header-content{
 	position:relative;
 	margin: 0 auto;
-	width:1000px;
+	width:940px;
 	height: 40px;
 
 }
 .header-menu{
 	position:relative;
-	left:50px;
+	left:25px;
 }
 .header-menu > ul > li >  a{
 	font-family:sans-serif;
@@ -59,7 +59,7 @@ display: inline;
 }
 #header-search-button{
 	position:relative;
-	bottom:-2px;
+	bottom:-1px;
 	display: inline;
 	float:right;
 	padding-right:5px;
@@ -84,7 +84,10 @@ display: inline;
 	margin-top: 48px;
 	
 }
-
+.header-menu > ul > li > a:hover{
+	color: #4db2ff;
+	cursor: pointer;
+}
 .header-menu-element-nobackground {
     text-transform: uppercase;
     float: left;
@@ -105,6 +108,11 @@ display: inline;
 	background: white url(img/divider.png) left center no-repeat;
 	font-family: Helvetica;
 	font-size: 15px;
+	color: black
+}
+#header-login:hover{
+	color: #4db2ff;
+	cursor: pointer;
 }
 #header-language{
 	border:none;
@@ -126,13 +134,20 @@ display: inline;
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
-    height:550px;
+    height:640px;
 
 }
+h1#slides-head {
+    font-size: 35px;
+}
+p#slide-par {
+    font-size: 25px;
+}
 .slides-content{
-	position:relative;
-	margin: 0 auto;
-	width:1000px;
+	position: relative;
+    margin: 0 auto;
+    /* float: left; */
+    width: 940px;
 }
 .slides-head{
 	float:left;
@@ -188,21 +203,25 @@ display: inline;
 
 
 .slides-panted-boxes{
-	position:relative;
-	float:left;
-	right:39px;
+	position: relative;
+    float: left;
+    margin: auto;
+}
+ul.slides-boxes {
+    height: 100px;
+    padding: 0;
 }
 .slides-boxes > li{
-	cursor: pointer;
-	padding: 10px 15px;
-	margin-right: 20px;
-	padding-left:15px;
-	font-size:20px;
-	width:250px;
-	height:200px;
-	float:left;
-	display:inline;
-	border-radius:10px;
+	    cursor: pointer;
+    padding: 10px 13px;
+    /* margin-right: 20px; */
+    /* padding-left: 15px; */
+    font-size: 20px;
+    width: 274px;
+    height: 200px;
+    /* float: left; */
+    display: inline;
+    border-radius: 10px;
 }
 .slides-boxes > li >a {
 	text-decoration:none;
@@ -218,22 +237,30 @@ display: inline;
 }
 .pink{
 	background-color: rgba(251, 66, 158, 0.9);
-	opacity: 0.8;
+    opacity: 0.8;
+    float: left;
+    margin-right: 20px;
 }
 .green{
-	background-color: rgba(106, 192, 50, 0.9);
-	opacity: 0.8;
-	position:relative;
-	left:69px;
+	    background-color: rgba(106, 192, 50, 0.9);
+    opacity: 0.8;
+    position: relative;
+    /* left: 69px; */
+    float: left;
+    margin: auto;
+    margin-right: 20px;
 }
 .orange{
-background-color: rgba(255, 117, 24, 0.9);
-	opacity: 0.8;
-	position:relative;
+    background-color: rgba(255, 117, 24, 0.9);
+    opacity: 0.8;
+    position: relative;
+    float: right;
+    /* left: 150px; */
 
-	float:right;
-	left:150px;
-
+}
+a.slide-link {
+    position: absolute;
+    bottom: 7px;
 }
 .slide-link{
 	color:white;
@@ -251,14 +278,18 @@ background-color: rgba(255, 117, 24, 0.9);
 
 .solutions-content{
 	padding-top: 50px;
-	width:1000px;
-	margin: 0 auto;
-	color:white;
+    width: 940px;
+    margin: 0 auto;
+    color: white;
 	
 }
 .solutions-head-content{
 	text-align: center;
 	font-size: 2.2em;
+}
+ul#solutions-list-content {
+    height: 100px;
+    padding: 0;
 }
 .solutions-list-container{
 	padding-top:20px;
@@ -269,7 +300,7 @@ background-color: rgba(255, 117, 24, 0.9);
 	width:inherit;
 }
 .do-solution{
-	width:145px;
+	width:16.6%;
 	float:left;
 	display:inline;
 	margin:auto;
@@ -333,7 +364,7 @@ background-color: rgba(255, 117, 24, 0.9);
   background: url(./img/solution_icon_diti-cx_hover.png) no-repeat center center;
 }
 .all-solutions-container{
-	margin-top:25px;
+	margin-top: 50px;
 	text-align: center;
 	width:inherit;
 	height: 50px;
@@ -372,10 +403,10 @@ background-color: rgba(255, 117, 24, 0.9);
 }
 
 .events-content{
-	width:1000px;
-	margin: 0 auto;
-	height: 95%;
-	color:white;
+    width: 940px;
+    margin: 0 auto;
+    height: 95%;
+    color: white;
 }
 .events-head{
 	text-transform: uppercase;
@@ -398,14 +429,22 @@ font-weight:100;
 	height:250px;
 	margin: 0 auto;
 }
+ul#events-list-content {
+    height: 100px;
+    padding: 0;
+    margin: auto;
+}
 .do-event{
-	width:28%;
-	height: 200px;
-	float:left;
-	display:inline;
-	text-align:center;
-	margin-right:40px;
-	margin-top:15px;
+	width: 31.207%;
+    height: 200px;
+    float: left;
+    display: inline;
+    text-align: center;
+    margin-right: 30px;
+    margin-top: 15px;
+}
+li#do-event-3 {
+    margin-right: 0;
 }
 .do-event > div > h1{
 	text-transform: uppercase;
@@ -1333,7 +1372,7 @@ background: url(img/btnArrow.png) right 15px center no-repeat, linear-gradient(t
 	  
 	}
 	.all-solutions-container{
-		margin-top:25px;
+		margin-top:40px;
 		text-align: center;
 		width:inherit;
 
