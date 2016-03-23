@@ -539,10 +539,10 @@ background:url("./img/eventListIconEvents_hover.png") no-repeat left ;
 	margin:0px;
 }
 .success-content{
-	width:1000px;
-	height:inherit;
-	margin:auto;
-	padding-top:1px;
+	 width: 940px;
+    height: inherit;
+    margin: auto;
+    padding-top: 1px;
 }
 .success-head{
 	text-align:center;
@@ -558,12 +558,12 @@ background:url("./img/eventListIconEvents_hover.png") no-repeat left ;
 .hidden{
 	display:none;
 }
-.success-left-1:hover .hidden {
+/*.success-left-1:hover .hidden {
 	display:block;
     max-height: 300px;
     margin-top: -190px;
     transition: max-height 1s ease;
-}
+}*/
 .hidden {
     background-color: #3AA6DB;
     color: white;
@@ -601,7 +601,7 @@ background:url("./img/eventListIconEvents_hover.png") no-repeat left ;
 	display:inline;
 	float:left;
 	/* margin-left: 14px; */
-	margin-right: 15px;
+	margin-right: 19px;
 }
 .success-left-1{
 	width:inherit;
@@ -673,7 +673,8 @@ display: none;
 }
 
 .success-right{
-	width: 230px;
+	width: 223px;
+	margin-right: 0px;
 	/* float:right; */
 	/* height: 330px; */
 }
@@ -739,6 +740,7 @@ top:0px;
 }
 .right-mts{
 	position: absolute;
+	margin-right: 0px;
 	/* width:45%; */
 	/* height:50px; */
 	/* display:inline; */
@@ -757,6 +759,14 @@ top:0px;
 }
 .success-right-pictures{
 	width: inherit;
+}
+.success-button {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+button.blue-button {
+    width: 220px;
 }
 /************************************footer***************************************/
 .footer-contaner{	
